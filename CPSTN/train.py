@@ -17,6 +17,7 @@ Example:
 See options/base_options.py and options/train_options.py for more training options.
 See training and test tips at: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md
 See frequently asked questions at: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/qa.md
+训练命令：
 python train.py --dataroot E:\program\dataset\coco2017\coco --name rgb2ir_paired_Road_edge --model cycle_gan --dataset_mode unaligned
 """
 import time

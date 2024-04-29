@@ -25,6 +25,8 @@ Example (You need to train models first or download pre-trained models from our 
 See options/base_options.py and options/test_options.py for more test options.
 See training and test tips at: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/tips.md
 See frequently asked questions at: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix/blob/master/docs/qa.md
+测试命令：
+python test.py --dataroot E:\program\dataset\coco2017\CPSTN_data\trainA --name rgb2ir_paired_Road_edge_pretrained --model test --no_dropout --preprocess none
 """
 import os
 from options.test_options import TestOptions
